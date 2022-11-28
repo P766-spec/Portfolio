@@ -20,7 +20,7 @@ const Testimonials = () => {
   return (
     <section id="testimonials">
      <h5>Education</h5>
-     <h2>Grades Till Date</h2>
+     <h2>I Loved it</h2>
 
      <Swiper className="container testimonials__container"
      // install Swiper modules
@@ -36,20 +36,18 @@ const Testimonials = () => {
         <div >
           <h3>BE - Computer Engineering (2021-2024)</h3>
           <h4>(First Year) SGPA: 9.84</h4>
-          <h5>DR.D.Y. Patil Institute Of Technoloy, Pimpri, Pune</h5>
+          <h5>DR.D.Y. Patil Institute Of Technology, Pimpri, Pune</h5>
         </div> 
         </SwiperSlide>
         <SwiperSlide className="testimonial">
         <div >
           <h3>12th - Science (2019-2020)</h3>
-          <h4>Percentage: 79.34</h4>
           <h5>Mother Mary Junior College, Mumbai</h5>
         </div>
         </SwiperSlide>
         <SwiperSlide className="testimonial">
         <div >
           <h3>10th- School (2017-2018)</h3>
-          <h4>Percentage: 83.80</h4>
           <h5>Father Joseph's English High School, Mumbai</h5>
         </div>
         </SwiperSlide>
