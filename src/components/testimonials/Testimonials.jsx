@@ -42,14 +42,14 @@ const Testimonials = () => {
         <SwiperSlide className="testimonial">
         <div >
           <h3>12th - Science (2019-2020)</h3>
-          <h4>Percentage: 92.24</h4>
+          <h4>Percentage: 79.34</h4>
           <h5>Mother Mary Junior College, Mumbai</h5>
         </div>
         </SwiperSlide>
         <SwiperSlide className="testimonial">
         <div >
           <h3>10th- School (2017-2018)</h3>
-          <h4>Percentage: 94.46</h4>
+          <h4>Percentage: 83.80</h4>
           <h5>Father Joseph's English High School, Mumbai</h5>
         </div>
         </SwiperSlide>
