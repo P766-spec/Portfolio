@@ -1,0 +1,57 @@
+.services__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.service__item {
+  background: var(--color-bg-variant);
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+.service__item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+}
+.service__item-img {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.service__item h3 {
+  margin: 1.6rem 0 2rem;
+  margin-left: 35%;
+}
+
+.service__item-cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 30%;
+}
+/* ============ MEDIA QUERIES (MEDIUM DEVICES)==============*/
+@media screen and (max-width: 1024px) {
+  .services__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container */
+  }
+}
+
+/* ============ MEDIA QUERIES (SMALL DEVICES) ==============*/
+@media screen and (max-width: 600px) {
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 300px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container */
+  }
+}
