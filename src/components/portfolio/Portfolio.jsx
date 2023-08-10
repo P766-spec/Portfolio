@@ -7,6 +7,7 @@ import IMG4 from "../../assets/IMG4.png";
 import IMG5 from "../../assets/IMG5.jpeg";
 import IMG6 from "../../assets/IMG6.jpeg";
 import IMG7 from "../../assets/IMG7.png";
+import IMG8 from "../../assets/IMG8.jpeg";
 
 const data = [
   {
@@ -16,21 +17,22 @@ const data = [
     github: "https://github.com/P766-spec/NotesAdda",
     demo: "https://p766-spec.github.io/NotesAdda/",
   },
-
   {
     id: 2,
+    image: IMG8,
+    title: "Connectify - A Social Media App ",
+    github: "https://github.com/P766-spec/Connectify",
+    demo: "https://63f4df963aa0d60008150572--hilarious-marzipan-c09399.netlify.app/",
+  },
+
+  {
+    id: 3,
     image: IMG1,
     title: "Uber-Clone - Nextjs Project",
     github: "https://github.com/P766-spec/Uber-clone",
     demo: "https://p766-spec.github.io/Uber-clone/",
   },
-  {
-    id: 3,
-    image: IMG2,
-    title: "Disney-Clone - Reacjs Project",
-    github: "https://github.com/P766-spec/disney-clone",
-    demo: "https://disneyplus-clone-20209.web.app/",
-  },
+
   {
     id: 4,
     image: IMG3,
@@ -65,7 +67,7 @@ const Portfolio = () => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-img">
-                <img src={image} alt={title} />
+                <img src={image} alt={title} width="100" height="300" />
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
