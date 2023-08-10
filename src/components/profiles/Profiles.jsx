@@ -31,7 +31,6 @@ const Profile = () => {
 
   return (
     <section id="portfolio">
-      <h5>My Work</h5>
       <h2>Coding Profiles</h2>
       <div className="services__container">
         {profiles.map(({ id, src, href, style, title }) => (
